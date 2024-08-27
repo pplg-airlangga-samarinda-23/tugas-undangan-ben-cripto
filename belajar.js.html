@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            //ini akan tampil di browser
+            document.write("sekarang kita belajar Javascript");
+           
+            //ini akan muncul di console, dengan membuka dev tools
+            //dev tools = ctrl + shift + i
+            console.log("ini muncul di console")
+
+
+            //variabel//di javascrpt tidak perlu menentukan tipe data
+            var Angka = 16;
+            var Nama = "Benazir"
+            document.write("umur" + Nama + "adalah" + Angka + "tahun");
+
+
+            //percabangan
+            if (angka > 17){
+                document.write("masih muda")
+            }
+
+
+            //perulangan
+            for (i = 1; i < 10; i++){
+                document.write("*");
+            }
+
+
+            //nested for
+            for (i = 0; i < 5; i++){
+                for (j =0; j < i; j++){
+                    document.write("*")                   
+                }
+                document.write("<br>");
+            }
+
+
+            //array
+            var kota = ["samarinda", "balikpapan", "bontang",];
+
+            document.write("panjang array: "+ kota.length + "<br>");
+
+            for (i= 0; i < kota.length; i++){
+                document.write(kota[i] + "<br>");
+            }
+        </script>
+    </body>
+</html>
